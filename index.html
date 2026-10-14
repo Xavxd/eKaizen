@@ -4,45 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- links to the style sheet and script -->
-     <link rel="stylesheet" href="assets/css/style.css" />
-     <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
     <title>eKaizen</title>
   </head>
   <body>
-    
     <header class="hero">
-
       <div class="herocontainer">
+        <h1 class="hero_title">eKaizen</h1>
 
-        <h1 class="title"> eKaizen</h1>
-        <nav class="navbar">
-         <ul class="nav-links">
-            <a class="nav-link" href="#">Our Mission</a>
-            <a class="nav-link" href="#">First Steps</a>
-            <a class="nav-link" href="#">Rewards</a>
-         </ul>
-       </nav>
-        
+        <nav class="hero_navbar">
+          <a class="nav-link" class="linkHover" href="#">Our Mission</a>
+          <a class="nav-link" class="linkHover" href="#">First Steps</a>
+          <a class="nav-link" class="linkHover" href="#">Rewards</a>
+        </nav>
       </div>
-      
     </header>
 
-    <main class="main" >
-      <h1>Saving the <span class="keyword">planet</span> is not an <span class="keyword">option</span> it is a <span class="keyword">responsibility</span></h1>
+    <main class="main">
+      <div class="maincontainer">
+        <div class="title_main_container">
+          <h1 class="main_title">
+            Saving the <span class="keyword">planet</span> is not an
+            <span class="keyword">option</span> it is a
+            <span class="keyword">responsibility.</span>
+          </h1>
+        </div>
+
+        <div class="main_content">
+          <div class="aside_content">
+            <div class="aside_intro">
+              <span class="bullet"></span>
+              <p class="main_text">
+                Recycle today, travel tomorrow and get instant rewards for your
+                daily green choices.
+              </p>
+            </div>
+
+            <div class="asside_bottom">
+              <button class="btn_main">
+                <a href="#" class="btn_main_link">Be part of the change</a>
+              </button>
+              <a href="#" class="reward_link">
+                Get a reward <span class="reward_arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="counter_container">
+            <div class="txt_counter">
+              <span class="bullet"></span>
+              <h2 class="counter_title">Registered new heroes</h2>
+            </div>
+
+            <div class="digits">
+              <span class="digit" id="digit1">0</span>
+              <span class="digit" id="digit2">0</span>
+              <span class="digit" id="digit3">0</span>
+              <span class="digit" id="digit3">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
-
     <footer class="footer">
-        <div class="max-w-7xl mx-auto px-6 text-center md:flex md:justify-between md:items-center text-sm text-gray-400 space-y-4 md:space-y-0">
-            <div>
-                © 2026 eKaizen. All rights reserved.
-            </div>
-            <div class="flex justify-center space-x-6">
-                <a href="#" class="hover:text-brandAccent transition">Privacy Policy</a>
-                <a href="#" class="hover:text-brandAccent transition">Terms of Service</a>
-                <a href="#" class="hover:text-brandAccent transition">Contact Us</a>
-            </div>
-        </div>
+      <div class="footer_inner">
+        <p class="footer_copyright">© 2026 eKaizen. All rights reserved.</p>
+        <nav class="footer_links" aria-label="Footer">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Contact Us</a>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>
