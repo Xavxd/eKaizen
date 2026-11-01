@@ -20,7 +20,7 @@ h1{
 }
 
 body{
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/bg.webp);
     background-size: cover;
     background-position: cover;
     background-attachment: fixed;
